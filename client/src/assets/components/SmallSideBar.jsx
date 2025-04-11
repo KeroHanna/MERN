@@ -4,7 +4,7 @@ import { useDashboardContext } from '../../pages/DashboardLayout';
 import Logo from './Logo';
 import links from '../../utils/links';
 import NavLinks from './NavLinks';
-const SmallSideBar = () => {
+const SmallSidebar = () => {
   const { showSidebar, toggleSideBar } = useDashboardContext();
 
   return (
@@ -27,4 +27,4 @@ const SmallSideBar = () => {
   );
 };
 
-export default SmallSideBar;
+export default SmallSidebar;
